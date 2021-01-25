@@ -5,34 +5,35 @@ body {
     max-width: 100%;
     min-height: 100%;
     font-family: 'Karla', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 0.9em;
     line-height: 1.25em;
     color: #000000;
-    border-top: 0.25em solid #ccc5fc;
+    border-top: 5px solid #BBE9DE;
 }
 .title {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 3rem;
-    color: #2f1970;
+    color: #42338B;
     letter-spacing: .1em;
-    text-shadow: .08em .08em .03em #ccc5fc, .1em .1em 0 #ffffff;
+    text-shadow: .08em .08em .03em #BBE9DE, .1em .1em 0 #ffffff;
 }
 a {
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
-    color: #2f1970;
+    color: #42338B;
 }
 a:hover {
-    background-color: #ffc70f; 
+    color: #F35029; 
 }
 header {
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
     line-height: 50%;
 }
-hr {
-    border-top: 1px;
-    color: #ccc5fc;
+.line {
+    background-color: #BBE9DE; 
+    height: 2px; 
+    width: 100%;
 }
 .image {
     float: right;
@@ -46,10 +47,14 @@ hr {
     padding-left: 1.25em;
     padding-top: 0.25em;
 }
+#cv {
+    font-weight: 500;
+}
 #studentwork {
     column-count: 3;
     column-width: 200px;
     column-gap: 1em;
+    padding-bottom: 1em;
     /*column-rule: 1px double #87adb0;*/
 }
 h4 {
