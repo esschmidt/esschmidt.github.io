@@ -5,15 +5,32 @@
 <!-- Favicon in tab from icons8.com -->
     
 <head>
+    <!-- Respect Do Not Track settings with Google Analytics -->
+    <script>
+        if (navigator.doNotTrack && navigator.doNotTrack === 1) {
+            window['ga-disable-G-WPYC6W0C56'] = true;
+        }
+    </script>     
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPYC6W0C56"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WPYC6W0C56');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Emily Schmidt is a library student and library worker.">
-    <meta name="keywords" content="Emily Schmidt, Pratt Institute, library, librarian, MSLIS, Watson, Baruch, Architectural League, bcWORKSHOP, Wesleyan" />
+    <meta name="keywords" content="Emily Schmidt, Pratt Institute, library, librarian, MSLIS, Met, Watson, Baruch, Architectural League, bcWORKSHOP, Wesleyan" />
     <title>Emily Schmidt</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;500&display=swap" rel="stylesheet"> 
 </head>
 
 <body> 
@@ -30,9 +47,9 @@
             <img src="eschmidt-round.jpg" alt="Black and white headshot of Emily Schmidt.">
             <p class="caption">Photo by Gilbert Santana</p>
         </div>
-        <p>I'm an MSLIS student at the Pratt Institute School of Information, graduating in May 2021. As a fellow at The Metropolitan Museum of Art's <a href="https://www.metmuseum.org/art/libraries-and-research-centers/thomas-j-watson-library">Thomas J. Watson Library</a>, I'm focused on digital collections and systems projects that highlight and improve access to the library's online resources. I also work in a public-facing role in the Access Services department of the <a href="https://library.baruch.cuny.edu/">Newman Library</a> at Baruch College, CUNY. My volunteer experience includes two years as a citizenship exam prep coach at a public library and in sales and inventory at a non-profit bookstore.</p>
-        <p>Before moving into librarianship, I spent eight years working at non-profit organizations focused on architecture, design, and the built environment. As a program manager focused on housing issues at The Architectural League of New York, I organized numerous events (including a yearlong <a href="https://archleague.org/project/housing-brass-tacks/">discussion series</a> and a daylong <a href="https://archleague.org/project/tower-slab-superblock-social-housing-legacies-futures/">conference</a>) on issues at the intersection of design, policy, and politics in housing. I also regularly wrote, commissioned articles, conducted interviews, and edited for the organization's website and its magazine, <a href="https://urbanomnibus.net/">Urban Omnibus</a>. Previously, as a project manager at the community design center bcWORKSHOP, I worked on <a href="https://www.bcworkshop.org/neighborhood-stories">community storytelling</a>, <a href="https://www.bcworkshop.org/posts/dallas-neighborhood-map">neighborhood</a> <a href="https://www.dallasnews.com/news/2012/09/05/the-definition-of-your-dallas-neighborhood-is-about-to-get-very-specific/">mapping</a>, and <a href="https://www.bcworkshop.org/bcanalytics-catalog/">data analysis</a>. I hold a B.A. in American studies, with a concentration in urban studies, from Wesleyan University.</p>
-        <div id="cv"><p>Download <a href="Files/Schmidt_Resume_2021.pdf" download>my full CV</a> as a PDF (updated 01/2021).</p></div>
+        <p>I'm Emily (she/her), an MSLIS student at the Pratt Institute School of Information, graduating in May 2021. As a fellow at The Metropolitan Museum of Art's <a href="https://www.metmuseum.org/art/libraries-and-research-centers/thomas-j-watson-library">Thomas J. Watson Library</a>, I'm supporting digital collections and systems projects that highlight and improve access to the library's online resources. I also work in a public-facing role in the Access Services department of the <a href="https://library.baruch.cuny.edu/">Newman Library</a> at Baruch College, CUNY. My volunteer experience includes two years as a citizenship exam prep coach at a public library and in sales and inventory at a non-profit bookstore.</p>
+        <p>Before moving into librarianship, I spent eight years working at non-profit organizations focused on architecture, design, and the built environment. As a program manager focused on housing at The Architectural League of New York, I organized numerous events (including a yearlong <a href="https://archleague.org/project/housing-brass-tacks/">discussion series</a> and a daylong <a href="https://archleague.org/project/tower-slab-superblock-social-housing-legacies-futures/">conference</a>) on issues at the intersection of design, policy, and politics in housing. I also regularly wrote, commissioned articles, conducted interviews, and edited for the organization's website and its magazine, <a href="https://urbanomnibus.net/">Urban Omnibus</a>. Previously, as a project manager at the community design center bcWORKSHOP, I worked on <a href="https://www.bcworkshop.org/neighborhood-stories">community storytelling</a>, <a href="https://www.bcworkshop.org/posts/dallas-neighborhood-map">neighborhood</a> <a href="https://www.dallasnews.com/news/2012/09/05/the-definition-of-your-dallas-neighborhood-is-about-to-get-very-specific/">mapping</a>, and <a href="https://www.bcworkshop.org/bcanalytics-catalog/">data analysis</a>. I hold a B.A. in American studies, with a concentration in urban studies, from Wesleyan University.</p>
+        <div id="cv"><p>Download <a href="Files/Schmidt_Resume_2021.pdf">my full CV</a> as a PDF (updated 01/2021).</p></div>
     </div>
     
     <div class="line"></div>
@@ -41,7 +58,7 @@
     <p>View or download (as PDFs) a sample of my projects completed at Pratt Institute:</p>
     <div id="studentwork">
         <div class="column">
-            <h4><a href="Files/Schmidt_601_2019_IntellectualFreedom.pdf" download>Reconsidering Intellectual Freedom in the Library</a></h4>
+            <h4><a href="Files/Schmidt_601_2019_IntellectualFreedom.pdf">Reconsidering Intellectual Freedom in the Library</a></h4>
             <p>A research paper exploring the limitations of and harms caused by the prevailing interpretations of intellectual freedom in libraries, which privilege a right to speech over values of safety and participation (Fall 2019, Foundations of Information, Prof. Lopatovska).</p>
         </div>
         <div class="column">
@@ -49,19 +66,19 @@
             <p>A hand-coded website, created with two Pratt classmates, which explores the prevalence of and problems with the use of educational technology in K-12 schools (Fall 2019, Information Technologies, Prof. Maceli).</p>
         </div>
         <div class="column">
-            <h4><a href="Files/Schmidt-Roslund-Miller_663_2020_MAP-ETDs.pdf" download>Metadata Application Profile for ETDs</a></h4>
+            <h4><a href="Files/Schmidt-Roslund-Miller_663_2020_MAP-ETDs.pdf">Metadata Application Profile for ETDs</a></h4>
             <p>A metadata application profile—including domain model, cataloging guidelines, and element set—for a collection of electronic theses and dissertations (ETDs), created with two Pratt classmates (Fall 2020, Metadata Design, Prof. Provo).</p>
         </div>
         <div class="column">
-            <h4><a href="Files/Schmidt_675_2020_HistoricalMaps.pdf" download>Time Traveling with Historical Maps</a></h4>
+            <h4><a href="Files/Schmidt_675_2020_HistoricalMaps.pdf">Time Traveling with Historical Maps</a></h4>
             <p>A lesson plan and activities for an hourlong online educational experience to teach middle and high school students about maps as historical documents and map literacy (Spring 2020, Museum & Library Outreach, Prof. Baumann).</p>
         </div>
         <div class="column">
-            <h4><a href="Files/Schmidt_660_2020_DigitalAccessibility.pdf" download>Collective Action for Digital Accessibility</a></h4>
+            <h4><a href="Files/Schmidt_660_2020_DigitalAccessibility.pdf">Collective Action for Digital Accessibility</a></h4>
             <p>A research paper examining accessibility issues with electronic resources in academic libraries, arguing for the need for collective action and a professional ethic to improve accessibility (Fall 2020, Collection Development, Prof. Ballmer).</p>
         </div>
         <div class="column">
-            <h4><a href="Files/Schmidt_652_2019_ReviewDARE.pdf" download>Reference Review: Dictionary of American Regional English</a></h4>
+            <h4><a href="Files/Schmidt_652_2019_ReviewDARE.pdf">Reference Review: Dictionary of American Regional English</a></h4>
             <p>An evaluation of the Dictionary of American Regional English electronic database, reviewing its features, uses, and strengths and shortcomings (Fall 2019, Reference & Instruction, Prof. Smith-Cruz).</p>
         </div>
     </div>

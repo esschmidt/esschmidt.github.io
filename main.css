@@ -9,29 +9,29 @@ body {
     font-size: 0.9em;
     line-height: 1.25em;
     color: #000000;
-    border-top: 5px solid #BBE9DE;
+    border-top: 5px solid #bbe9de;
 }
 .title {
     font-weight: 500;
-    font-size: 3rem;
-    color: #42338B;
+    font-size: 4vw;
+    color: #42338b;
     letter-spacing: .1em;
-    text-shadow: .08em .08em .03em #BBE9DE, .1em .1em 0 #ffffff;
+    text-shadow: .08em .08em .03em #bbe9de, .1em .1em 0 #ffffff;
 }
 a {
     font-weight: 500;
     text-decoration: none;
-    color: #42338B;
+    color: #42338b;
 }
 a:hover {
-    color: #F35029; 
+    color: #f35029; 
 }
 header {
     padding-bottom: 1.5em;
     line-height: 50%;
 }
 .line {
-    background-color: #BBE9DE; 
+    background-color: #bbe9de; 
     height: 2px; 
     width: 100%;
 }
@@ -55,7 +55,6 @@ header {
     column-width: 200px;
     column-gap: 1em;
     padding-bottom: 1em;
-    /*column-rule: 1px double #87adb0;*/
 }
 h4 {
     margin: 0;
