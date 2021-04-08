@@ -9,35 +9,34 @@ body {
     font-size: 0.9em;
     line-height: 1.25em;
     color: #000000;
-    border-top: 5px solid #bbe9de;
 }
 .title {
     font-weight: 500;
-    font-size: 4vw;
-    color: #42338b;
+    font-size: 3.5em;
+    color: #000000;
     letter-spacing: .1em;
-    text-shadow: .08em .08em .03em #bbe9de, .1em .1em 0 #ffffff;
 }
 a {
-    font-weight: 500;
     text-decoration: none;
-    color: #382c76;
+    color: #000000;
+    background-color: #ffff42;
 }
 a:hover {
-    color: #f35029; 
+    color: #fccabb;
+    background-color: #ff5e42;
 }
 header {
     padding-bottom: 1.5em;
     line-height: 50%;
 }
 .line {
-    background-color: #bbe9de; 
-    height: 2px; 
+    background-color: #fccabb; 
+    height: 1px; 
     width: 100%;
 }
 h2 {
     font-weight: 500;
-    font-size: 1.6vw;
+    font-size: 1.4em;
 }
 .image {
     float: right;
@@ -49,7 +48,6 @@ h2 {
 #bio img {
     float: right;
     padding-left: 1.25em;
-    padding-top: 0.25em;
     width: auto;
 }
 #cv {
@@ -62,6 +60,7 @@ h2 {
     padding-bottom: 1em;
 }
 h4 {
+    font-weight: 500;
     margin: 0;
 }
 .column {
