@@ -17,13 +17,15 @@ body {
     letter-spacing: .1em;
 }
 a {
-    text-decoration: none;
+/*    text-decoration: none;*/
     color: #000000;
-    background-color: #ffff42;
+/*    background-color: #ffff42;*/
+    font-weight: 400;
 }
 a:hover {
-    color: #fccabb;
-    background-color: #ff5e42;
+/*    color: #fccabb;*/
+    background-color: #ffff42;
+    text-decoration: none;
 }
 header {
     padding-bottom: 1.5em;
