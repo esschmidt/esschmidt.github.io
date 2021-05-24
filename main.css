@@ -1,14 +1,33 @@
 body {
     position: relative;
     margin: 0 auto;
-    padding: 2em 4em 2em 4em;
+    padding: 2em 9em 2em 9em;
     max-width: 100%;
     min-height: 100%;
     font-family: 'Karla', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.9em;
     line-height: 1.25em;
     color: #000000;
+}
+a {
+/*    text-decoration: none;*/
+    color: #000000;
+/*    background-color: #ffff42;*/
+    font-weight: 500;
+}
+a:hover {
+/*    color: #fccabb;*/
+    background-color: #ffff42;
+    text-decoration: none;
+}
+h2 {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+h4 {
+    font-weight: 600;
+    margin: 0;
 }
 .title {
     font-weight: 500;
@@ -16,29 +35,15 @@ body {
     color: #000000;
     letter-spacing: .1em;
 }
-a {
-/*    text-decoration: none;*/
+.subtitle {
+    font-weight: 500;
+    font-size: 1.5vw;
     color: #000000;
-/*    background-color: #ffff42;*/
-    font-weight: 400;
-}
-a:hover {
-/*    color: #fccabb;*/
-    background-color: #ffff42;
-    text-decoration: none;
 }
 header {
     padding-bottom: 1.5em;
     line-height: 50%;
-}
-.line {
-    background-color: #fccabb; 
-    height: 1px; 
-    width: 100%;
-}
-h2 {
-    font-weight: 500;
-    font-size: 1.4em;
+    border-bottom: 1.5px solid #ff4000;
 }
 .image {
     float: right;
@@ -47,23 +52,25 @@ h2 {
     text-align: right;
     font-size: 75%;
 }
+#bio {
+    padding-bottom: 1.5em;
+    border-bottom: 1.5px solid #ff4000;
+}
 #bio img {
     float: right;
     padding-left: 1.25em;
     width: auto;
 }
 #cv {
-    font-weight: 500;
+    padding-bottom: 1em;
+    border-bottom: 1.5px solid #ff4000;
 }
 #studentwork {
     column-count: 3;
     column-width: 200px;
-    column-gap: 1em;
-    padding-bottom: 1em;
-}
-h4 {
-    font-weight: 500;
-    margin: 0;
+    column-gap: 1.5em;
+    padding-bottom: 2em;
+    border-bottom: 1.5px solid #ff4000;
 }
 .column {
     break-inside: avoid;
