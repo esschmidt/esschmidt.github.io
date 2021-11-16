@@ -1,7 +1,7 @@
 body {
     position: relative;
     margin: 0 auto;
-    padding: 2em 9em 2em 9em;
+    padding: 3em 10em 3em 10em;
     max-width: 100%;
     min-height: 100%;
     font-family: 'Karla', sans-serif;
@@ -35,11 +35,6 @@ h4 {
     color: #000000;
     letter-spacing: .1em;
 }
-.subtitle {
-    font-weight: 500;
-    font-size: 1.5em;
-    color: #000000;
-}
 header {
     padding-bottom: 1.5em;
     line-height: 50%;
@@ -53,7 +48,7 @@ header {
     font-size: 75%;
 }
 #bio {
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
     border-bottom: 1.5px solid #ff4000;
 }
 #bio img {
@@ -62,18 +57,10 @@ header {
     width: auto;
 }
 #cv {
-    padding-bottom: 1em;
     border-bottom: 1.5px solid #ff4000;
 }
-#studentwork {
-    column-count: 3;
-    column-width: 200px;
-    column-gap: 1.5em;
-    padding-bottom: 2em;
+#contact {
     border-bottom: 1.5px solid #ff4000;
-}
-.column {
-    break-inside: avoid;
 }
 #footer {
     position: flex;
